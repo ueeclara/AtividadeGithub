@@ -22,3 +22,4 @@ function calcular() {
     document.querySelector(".tela").innerHTML = "Sem comando...";
   }
 }
+
