@@ -1,12 +1,12 @@
-function insert(num) {
+function inserir(num) {
   document.querySelector(".tela").innerHTML += num;
 }
 
-function clean() {
+function apagar() {
   document.querySelector(".tela").innerHTML = "";
 }
 
-function back() {
+function apagaUm() {
   let tela = document.querySelector(".tela").innerHTML;
   document.querySelector(".tela").innerHTML = tela.substring(
     0,
